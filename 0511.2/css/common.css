@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body{    
+ background-color: aqua      
+}
+
+h1 {
+ color: white;
+ cursor: pointer;
+ transition: all 1.0s ;
+}
+
+.on{
+     background-color: chartreuse;
+     transform: rotate(360deg)scale(1);
+}
