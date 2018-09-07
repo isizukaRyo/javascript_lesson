@@ -51,3 +51,25 @@ console.log(sports)
 sports.pop()//配列最後を削除する
 console.log(sports)
 
+//配列の差し替え
+console.log(fruits)
+fruits.splice(1,2, '追加したい値1','追加したい価2');
+console.log(fruits)
+
+//配列の取り出し
+var song = ['演歌','ジャズ',' J-POP']
+console.log(song.slice(1.3))
+console.log(song.slice(1))//2つ目を省略すると最後まで
+
+//配列のソート
+var sortNums =[3,4,2,6,9,1]
+sortNums.sort()
+console.log(sortNums)
+
+//配列の座標
+sortNums.reverse()
+console.log(sortNums)
+
+//文字列を区切り文字で配列に変換
+var date = '2013/4/26';
+console.log(date.split('/'));
