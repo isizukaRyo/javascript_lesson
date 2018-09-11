@@ -63,11 +63,11 @@ console.log(song.slice(1))//2つ目を省略すると最後まで
 
 //配列のソート
 var sortNums =[3,4,2,6,9,1]
-sortNums.sort()
+sortNums.sort()//123469の順番にしている
 console.log(sortNums)
 
-//配列の座標
-sortNums.reverse()
+//配列の逆順
+sortNums.reverse()//964321の順番にしている
 console.log(sortNums)
 
 //文字列を区切り文字で配列に変換
