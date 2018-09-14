@@ -37,9 +37,9 @@ animal.push('いぬ')//配列の最後に追加
 console.log(animal)
 
 var nums = []//あらかじめ配列を用意して後から値を入れる
-nums.push (1)
-nums.push (2)
-nums.push (3)
+nums.push(1)
+nums.push(2)
+nums.push(3)
 console.log(nums)
 
 //配列の削除
