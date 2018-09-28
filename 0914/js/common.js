@@ -31,3 +31,8 @@ for(fruit in fruits){
 //Q4
 var date = '2013/4/26/金/10:10';
 console.log  (date.split('/'));
+//Q5
+
+
+
+
