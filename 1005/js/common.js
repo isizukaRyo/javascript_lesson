@@ -36,7 +36,7 @@ console.log(Math.max(randomNum,50))//最小値を50とする
 
 
 //js問題
-console.log('Q1')
+//Q1
 
 console.log(numObj(100));
 function numObj(num){
@@ -54,8 +54,7 @@ function numObj(num){
  return numObj
 }
 
-
-console.log('Q2')
+//Q2
 
 var fruits = ['りんご', 'めろん', 'ぶどう'];
 
@@ -64,9 +63,16 @@ function addfruit(Obj1,Obj2){
     Obj1.push(Obj2)     //obj1が配列
     return Obj1
 }
-console.log('Q3')
+//Q3
 
 console.log(randomNum2(10));
 function randomNum2(num){
     return Math.floor(Math.random() * num)
 }
+
+//Q4
+console.log(randomRangeNum(3, 10));
+function randomRangeNum(min,max){
+    return Math.floor(Math.random() * (max + 1 - min) + min);
+}
+//Q5
