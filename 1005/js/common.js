@@ -67,12 +67,33 @@ function addfruit(Obj1,Obj2){
 
 console.log(randomNum2(10));
 function randomNum2(num){
-    return Math.floor(Math.random() * num)
+    return Math.floor(Math.random() * num) + 1;
 }
 
 //Q4
 console.log(randomRangeNum(3, 10));
 function randomRangeNum(min,max){
     return Math.floor(Math.random() * (max + 1 - min) + min);
+    //Math.random() * (max + 1 - min)=Math.random() * 8 +3  は
+    //０から7で出した数に３足して、3から10までの乱数を作っている
 }
+//Q4a
+console.log(randomRangeNum(3, 10));
+function randomRangeNum(min,max){
+    return Math.floor(Math.random() * (max - min + 1)+min);
+}
+
 //Q5
+console.log(str('aaaa'))
+console.log(str('12345'))
+console.log(str('123456'))
+function str(st){
+    if(st.length > 4){
+        return st.slice(0, 4) +'...'
+    }else{
+       return st
+} 
+    }
+      
+     
+//Q6
