@@ -97,3 +97,20 @@ function str(st){
       
      
 //Q6
+
+function getMoneyFormat(num){
+    var str = String(num)
+var newString=``//空の文字列を作る
+    
+    for(var i = str.length -1,j = 1; i >= 0; i--,j++){
+        console.log(i,j)//iは7個目を削って、6〜1まで出力　jは1〜7
+        if( j % 3=== 0 && j !== str.length)//3回に1回,を入れてる
+        {
+            newString = ',' + str[i] + newString
+        }else{
+        newString = str[i] + newString
+    }
+    
+   }
+     return newString
+}console.log(getMoneyFormat(1000000))
